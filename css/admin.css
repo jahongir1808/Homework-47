@@ -73,7 +73,7 @@ aside::-webkit-scrollbar {
 .nav-link {
   display: block;
   padding: 15px;
-  font-size: 30px;
+  font-size: 1.875rem;
   white-space: nowrap;
   color: rgb(10, 10, 10);
 }
@@ -139,11 +139,11 @@ header {
   border: none;
   color: black;
   cursor: pointer;
-  font-size: 40px;
+  font-size: 2.5rem;
 }
 
 .avatar {
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 
 main,
