@@ -10,7 +10,7 @@ function getRow({ _id, name, percent }) {
 	return `<tr>
       <th scope="row">${_id}</th>
       <td>${name}</td>
-      <td>${percent >= 100 ? 'maximal 100%' : percent}%</td>
+      <td>${percent >= 100 ? alert('maximal 100%') : percent}%</td>
       <td>
         <button 
           class="btn btn-primary"
