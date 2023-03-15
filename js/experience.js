@@ -22,8 +22,8 @@ function getRow({
       <td>${work_name}</td>
       <td>${company_name}</td>
       <td>${description}</td>
-      <td>${start_date}</td>
-      <td>${end_date}</td>
+      <td>${start_date.split('T')[0]}</td>
+      <td>${end_date.split('T')[0]}</td>
       <td>
         <button
           class="btn btn-primary"
