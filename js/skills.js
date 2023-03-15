@@ -11,10 +11,7 @@ function getRow({ _id, name, percent }) {
       <th scope="row">${_id}</th>
       <td>${name}</td>
       <td>${
-				percent >= 100
-					? (skillsPercent.innerHTML = 'Maximal 100% kiriting')
-					: percent
-			}</td>
+				percent >= 100 ? (percent.innerHTML = 'Maximal 100% kiriting') : percent}</td>
       <td>
         <button 
           class="btn btn-primary"
